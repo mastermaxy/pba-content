@@ -8,7 +8,7 @@ duration: 60 min
 
 ---
 
-<img style="width: 1100px" src="assets/contributing/intro.png" />
+<img style="width: 1100px" src="assets/img/7-Polkadot/Contributing/Contributing/intro.png" />
 <!-- check size -->
 
 
