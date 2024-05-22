@@ -235,65 +235,132 @@ OECD: Organisation for Economic Co-operation and Development
 The requirements (condensed) to become a Dan I member of the Polkadot Fellowship are:
 
 <pba-col left>
-Three clear examples of a modest but substantial contribution to protocol development.
-Actively been involved in the design of a component deployed to the network.
-Substantially assisted in the analysis, or authoring of formalisation or implementation of a protocol component.
-Should be able to list all key goals, principles and tenets of Polkadot’s overall philosophy.
+- Three clear examples of a modest but substantial contribution to protocol development.
+- Actively been involved in the design of a component deployed to the network.
+- Substantially assisted in the analysis, or authoring of formalisation or implementation of a protocol component.
+- Should be able to list all key goals, principles and tenets of Polkadot’s overall philosophy.
 </pba-col>
 <pba-col right>
+Possible examples of a “modest but substantial contribution” may be:
+- identifying and correcting a non-trivial issue in protocol code or formalisation;
+- being available and playing a crucial operational role for a network fix;
+- proposing a reasonable and non-trivial protocol innovation; or
+- doing a valuable, innovative and insightful refactoring or simplification.
 </pba-col>
 
 
+---
 
 
+<img rounded style="width: 1000px" src="assets/Contributing/iwantyou.png" />
 
-## Overview
-<pba-flex center>
-- Synchronous vs asynchronous
-- Why is asynchronous backing desirable?
-<!-- .element: class="fragment" data-fragment-index="1" -->
-- High level mechanisms of async backing
-<!-- .element: class="fragment" data-fragment-index="2" -->
-- The unincluded segment, and prospective parachains
-<!-- .element: class="fragment" data-fragment-index="3" -->
-- Async backing enabling other roadmap items
-<!-- .element: class="fragment" data-fragment-index="4" -->
-</pba-flex>
+
 ---
-## Synchronous Backing Simplified
-<img rounded style="width: 1000px" src="assets/shallow-dive-asynchronous-backing/synchronous_backing_simplified.svg" />
-> How is this synchronous?
-<!-- .element: class="fragment" data-fragment-index="1" -->
-Notes:
-- The dividing line between the left and right is when a candidate is backed on chain
-- Approvals, disputes, and finality don't immediately gate the production of farther candidates.
-  So we don't need to represent those steps in this model.
+
+## Fellowship Clarity
+
+- The Fellowship is a very new, and still developing organization.
+- The Fellowship offers technical influence over the Polkadot Network and a regular income.
+- It is attempting to provide human needs of consistent / regular income from a resilient decentralized source.
+- _The barrier to entry is intentionally very high._
+- It is NOT a requirement to contribute to the Polkadot SDK or broader ecosystem.
+- It is NOT the path for everyone, even not necessarily for all core developers. 
+
 ---
-## Async Backing Simplified
-<div class="r-stack">
-<img rounded style="width: 1100px" src="assets/shallow-dive-asynchronous-backing/async_backing_simplified_1.svg" />
-<img rounded style="width: 1100px" src="assets/shallow-dive-asynchronous-backing/async_backing_simplified_2.svg" />
-<!-- .element: class="fragment" data-fragment-index="1" -->
-<img rounded style="width: 1100px" src="assets/shallow-dive-asynchronous-backing/async_backing_simplified_3.svg" />
-<!-- .element: class="fragment" data-fragment-index="2" -->
-</div>
-> How is this asynchronous?
-<!-- .element: class="fragment" data-fragment-index="3" -->
-Notes:
-- Our cache of parablock candidates allows us to pause just before that dividing line, on-chain backing
-- Why is backing asynchronous in this diagram?
+
+## My recommended path to becoming a fellow…
+
+- Join a team in the Polkadot (or broader) ecosystem aligned with the values of the fellowship.
+- Work with them to split your time between their work and core contributions to the Polkadot SDK.
+  - A team aligned with the values of the fellowship should be elated to have a fellow on their team.
+- Navigate your way to Dan III, a clear milestone to receive a full-time living salary for your work.
+  - ~3 years to learn, grow, and develop.
+- If you want, transition to becoming a full time decentralized contributor to Polkadot.
+
 ---
-## The Async Backing Optimistic Collator Assumptions
-<pba-flex center>
-1. "The best existing parablock I'm aware of will eventually be included in the relay chain."
-1. "There won't be a chain reversion impacting that best parablock."
-<!-- .element: class="fragment" data-fragment-index="1" -->
-</pba-flex>
-<br />
-<br />
-> The Stakes Are Low
-<!-- .element: class="fragment" data-fragment-index="2" -->
-Notes:
-Best is determined by a process similar to the BABE fork choice rule.
-Brief BABE fork choice rule review
+
+## Issues / Ideas
+
+<!-- original slides had 90 and -90 degree "ideas"/"issues" text around a box-->
+
 ---
+
+## **Before you can contribute** you need to find an issue.
+
+---
+
+## A common mistake…
+
+- Don’t come to the Polkadot SDK with brand new features that you want to implement.
+- Polkadot is already a huge codebase, and does not want to maintain more code.
+- As a new contributor in the ecosystem, you don’t necessarily have the context and knowledge to best understand what needs to be done, and how to integrate new features into the repo.
+- The best way to start becoming an expert at Polkadot SDK (or any open source repo) is to pick up existing issues created by experts who can also mentor you.
+
+---
+## Find the right issues
+
+Not all issues are created equal:
+
+- _Difficulty:_ What level of Rust and/or Substrate expertise do you need to have to complete the issue?
+- _Sensitivity:_ What parts of the codebase does the issue touch, and how could that potentially affect the network?
+- _Clarity:_ How well understood is the solution to the issue?
+- _Urgency:_ How quickly does this PR need to be completed?
+
+---
+
+
+## Issue Filters: C1-Mentor, C2-Good-First-Issue, D0-Easy
+
+
+<img rounded style="width: 1000px" src="assets/Contributing/issues.png" />
+
+
+---
+
+## A Nonsensitive Entry Point to the Runtime
+
+<img rounded style="width: 1000px" src="assets/Contributing/example1.png" />
+
+
+---
+
+## An Issue that Rust Compiler Can Entirely Check
+
+<img rounded style="width: 1000px" src="assets/Contributing/example2.png" />
+
+
+---
+## Become a subject expert and code owner
+
+- Training new open source contributors is very much a long term investment mindset.
+- You are more likely to find issues to work on and people to mentor you if you create a focus area for your contributions.
+- If you can become an expert in a topic area, you will be able to develop deeper and more relevant skills, and be able to transfer those skills to other topic areas.
+
+
+---
+## Keep conversations in public.
+
+- The urge is to always try to open a direct message to quickly discuss and resolve questions.
+- Culture for Polkadot is: global and async.
+- Long form messages force writers to think more deeply about what is being asked and answered.
+- Use DMs to ping for attention, but bring important conversations and information to the Forum, GitHub, and other public spaces.
+  - You will be surprised how many lurkers use these conversations to educate themselves.
+
+
+---
+### Pull Requests & Reviews
+<!-- original slides had 90 and -90 degree Pull requests and reviews text around a box-->
+
+
+---
+## Breakdown Large PRs
+A large PR is the easiest way to get repository owners to place your code at the bottom of their “TODO” stack. Split up large PRs into multiple parts!
+- Take advantage of the Rust compiler.
+  - Create a PR with just low sensitivity type changes
+  - Sensitive logical changes in another PR which should be more compact to review.
+  - Chain their dependencies on each other.
+- Where you are refactoring many components (like pallets), do them one at a time where possible.
+
+
+---
+
