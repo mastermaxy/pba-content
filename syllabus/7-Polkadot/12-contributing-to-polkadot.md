@@ -75,7 +75,7 @@ https://polkadot.network/academy/
 
 ## The Mono Repo
 <!-- skipped Polkadot SDK repo has evolved slide, not relevant for PBA-->
-<img rounded style="width: 600px" src="assets/Contributing/monorepo.png" />
+<img rounded style="width: 600px" src="assets/Contributing/Monorepo.png" />
 
 <pba-col right>
 - Merging into a single repository simplifies the development process
@@ -89,7 +89,7 @@ https://polkadot.network/academy/
 
 ## Runtime Extraction
 
-<img rounded style="width: 600px" src="assets/Contributing/monorepo2.png" />
+<img rounded style="width: 600px" src="assets/Contributing/Monorepo2.png" />
 
 <pba-col right>
 Extraction of the various Polkadot Runtimes established the decentralized ownership of this code. Includes:
@@ -107,13 +107,12 @@ Extraction of the various Polkadot Runtimes established the decentralized owners
 
 ## Repository Ownership
 
-<img rounded style="width: 800px" src="assets/Contributing/owners.png" />
+<img rounded style="width: 800px" src="assets/Contributing/Owners.png" />
 
 <pba-col left>
 Parity Technologies
 </pba-col>
 
-<pba-col right>
 The Polkadot Network via the Fellowship
 </pba-col>
 
@@ -141,8 +140,10 @@ https://github.com/polkadot-fellows/RFCs
 - Composed of core developers and researchers.
 - Servants to the DOT holders via referendum signaling.
 
+https://github.com/polkadot-fellows
+
 ---
-<img rounded style="width: 800px" src="assets/Contributing/manifesto.png" />
+<img rounded style="width: 800px" src="assets/Contributing/Manifesto.png" />
 
 https://github.com/polkadot-fellows/manifesto
 
@@ -157,10 +158,92 @@ The current Polkadot Fellows.
 
 ---
 
+## Rank Summary
+
+<table class="no-bullet-padding">
+<tr>
+  <td>Dan</td>
+  <td>Title</td>
+  <td>Time from Dan I</td>
+  <td>Salary Factor (OECD)</td>
+</tr>
+<tr class="text-small">
+<td>
+
+- n/a
+- I
+- II
+- III
+- IV
+- V
+- VI
+- VII
+- VIII
+- IX
+</td>
+<td>
+- Candidate
+- Humble
+- Proficient
+- Fellow
+- Architect
+- Architect Adept
+- Grant Architect
+- Free Master
+- Master Constant
+- Grand Master
+</td>
+<td>
+- n/a
+- n/a
+- ~1 year
+- ~2 years
+- 3 years
+- > 4 years
+- > 5 years
+- > 6 years!
+- > 11 years!
+- > 19 years!
+</td>
+<td>
+- 0.0
+- 0.125
+- 0.25
+- 1.0
+- 1.5
+- 2.0
+- 2.5
+- 2.5
+- 2.5
+- 2.5
+</td>
+
+Salary RFC: https://github.com/polkadot-fellows/RFCs/pull/50/
+OECD: Organisation for Economic Co-operation and Development
+
+<pba-col right>
+- The fellowship has different ranks based on their contributions to Polkadot.
+- The requirements to be promoted are defined in the manifesto.
+- Fellowship members can choose to accept a salary for their rank.
+- Salary is based on the OECD average salary for engineers.
+</pba-col>
+
+---
+
+## Dan I
+
+The requirements (condensed) to become a Dan I member of the Polkadot Fellowship are:
+
+<pba-col left>
+Three clear examples of a modest but substantial contribution to protocol development.
+Actively been involved in the design of a component deployed to the network.
+Substantially assisted in the analysis, or authoring of formalisation or implementation of a protocol component.
+Should be able to list all key goals, principles and tenets of Polkadot’s overall philosophy.
+</pba-col>
+<pba-col right>
+</pba-col>
 
 
-
-https://github.com/polkadot-fellows
 
 
 
